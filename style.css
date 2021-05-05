@@ -8,7 +8,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 h1 {
@@ -21,7 +20,9 @@ body {
     font-family: Lato, sans-serif;
     background: var(--fondo);
     color: var(--figura);
+
 }
+
 
 body.portada{
     background:var(--fondo) url('images/portada.png') right bottom no-repeat;
@@ -37,7 +38,6 @@ a {
 a:hover {
     color: rgba(255, 62, 36, 0.65);
 }
-
 
 :hover{
     transition: all ease .5s;

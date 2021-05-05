@@ -26,14 +26,20 @@
             </footer>
         </div>
 <script>
-    var mymap = L.map('mapa').setView([33.5427796,9.9672612], 2);
+     var mymap = L.map('mapa').setView([18.216667, 42.5], 2);
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-        maxZoom: 18,
+        maxZoom: 16,
         id: 'mapbox/dark-v10',
         tileSize: 512,
         zoomOffset: -1
     }).addTo(mymap);
-    L.marker([33.5427796,9.9672612]).addTo(mymap).bindPopup("<b>Hola</b>. Soy un bindPopup.");
+    L.marker([-41.288889, 174.777222]).addTo(mymap).bindPopup("<b>What we do in the shadows</b>. Wllington - Nueva Zelanda.");
+    L.marker([53.349722, -6.260278]).addTo(mymap).bindPopup("<b>Byzantium</b>. Dublín - Irlanda.");
+    L.marker([48.856944, 2.351389]).addTo(mymap).bindPopup("<b>Entrevista con el Vampiro</b>. París - Francia.");
+    L.marker([51.507222, -0.1275]).addTo(mymap).bindPopup("<b>Drácula, de Bram Stoker</b>. Londres - Reino Unido.");
+    L.marker([46.766667, 23.583333]).addTo(mymap).bindPopup("<b>Drácula, de Bram Stoker</b>. Transilvania - Rumania.");
+    L.marker([55.95, -3.198889]).addTo(mymap).bindPopup("<b>Mi pequeño vampiro</b>. Edimburgo - Escocia.");
+    L.marker([42.331667, -83.0475]).addTo(mymap).bindPopup("<b>Sólo los amantes sobreviven</b>. Detroit - Estados Unidos.");
 </script>
     </body>
 </html>

@@ -8,16 +8,17 @@
 * {
     margin: 0;
     padding: 0;
-}
 
-body {
-    font-family: Lato, sans-serif;
-    background: var(--fondo);
-    color: var(--figura);
 }
 
 h1 {
     font-family: Berkshire Swash, cursive;
+    background: var(--fondo);
+    color: var(--figura);
+}
+
+body {
+    font-family: Lato, sans-serif;
     background: var(--fondo);
     color: var(--figura);
 }
@@ -34,7 +35,7 @@ a {
 }
 
 a:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 62, 36, 0.75);
 }
 
 :hover{

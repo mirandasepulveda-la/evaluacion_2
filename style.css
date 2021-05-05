@@ -38,9 +38,6 @@ a:hover {
     color: rgba(255, 62, 36, 0.65);
 }
 
-a:hover {
-    color: rgba(255, 62, 36, 0.75);
-}
 
 :hover{
     transition: all ease .5s;

@@ -12,7 +12,7 @@
 
 h1 {
     font-family: Berkshire Swash, cursive;
-    background: var(--fondo);
+    background: none;
     color: var(--figura);
 }
 

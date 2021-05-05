@@ -2,7 +2,7 @@
 
 :root{
     --fondo: #000;
-    --figura: #ddd;
+    --figura: #ff4040;
 }
 
 * {
@@ -11,6 +11,12 @@
 }
 
 body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: var(--fondo);
+    color: var(--figura);
+}
+
+h1 {
     font-family: Helvetica, Arial, sans-serif;
     background: var(--fondo);
     color: var(--figura);

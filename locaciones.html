@@ -33,13 +33,44 @@
         tileSize: 512,
         zoomOffset: -1
     }).addTo(mymap);
-    L.marker([-41.288889, 174.777222]).addTo(mymap).bindPopup("<b>What we do in the shadows</b>. Wllington - Nueva Zelanda.");
-    L.marker([53.349722, -6.260278]).addTo(mymap).bindPopup("<b>Byzantium</b>. Dublín - Irlanda.");
-    L.marker([48.856944, 2.351389]).addTo(mymap).bindPopup("<b>Entrevista con el Vampiro</b>. París - Francia.");
-    L.marker([51.507222, -0.1275]).addTo(mymap).bindPopup("<b>Drácula, de Bram Stoker</b>. Londres - Reino Unido.");
-    L.marker([46.766667, 23.583333]).addTo(mymap).bindPopup("<b>Drácula, de Bram Stoker</b>. Transilvania - Rumania.");
-    L.marker([55.95, -3.198889]).addTo(mymap).bindPopup("<b>Mi pequeño vampiro</b>. Edimburgo - Escocia.");
-    L.marker([42.331667, -83.0475]).addTo(mymap).bindPopup("<b>Sólo los amantes sobreviven</b>. Detroit - Estados Unidos.");
+var icon = L.icon({
+                    iconUrl: "images/viago.png",
+                    iconSize:     [45, 35], 
+                    });
+var icon2 = L.icon({
+                    iconUrl: "images/eleanorandclara.png",
+                    iconSize:     [45, 35], 
+                    });
+var icon3 = L.icon({
+                    iconUrl: "images/tomcruise.png",
+                    iconSize:     [45, 35], 
+                    });
+var icon4 = L.icon({
+                    iconUrl: "images/dracula.png",
+                    iconSize:     [45, 35], 
+                    });
+var icon5 = L.icon({
+                    iconUrl: "images/mipequenovampiro.png",
+                    iconSize:     [45, 35], 
+                    });
+var icon6 = L.icon({
+                    iconUrl: "images/adamaandeve.png",
+                    iconSize:     [45, 35], 
+                    });
+var icon7 = L.icon({
+                    iconUrl: "images/barnabascollins.png",
+                    iconSize:     [45, 35], 
+                    });
+
+    L.marker([-41.288889, 174.777222],{icon: icon}).addTo(mymap).bindPopup("<b>What we do in the shadows</b>. Wllington - Nueva Zelanda.");
+    L.marker([53.349722, -6.260278],{icon: icon2}).addTo(mymap).bindPopup("<b>Byzantium</b>. Dublín - Irlanda.");
+    L.marker([48.856944, 2.351389],{icon: icon3}).addTo(mymap).bindPopup("<b>Entrevista con el Vampiro</b>. París - Francia.");
+    L.marker([51.507222, -0.1275],{icon: icon4}).addTo(mymap).bindPopup("<b>Drácula, de Bram Stoker</b>. Londres - Reino Unido.");
+    L.marker([46.766667, 23.583333],{icon: icon4}).addTo(mymap).bindPopup("<b>Drácula, de Bram Stoker</b>. Transilvania - Rumania.");
+    L.marker([55.95, -3.198889],{icon: icon5}).addTo(mymap).bindPopup("<b>Mi pequeño vampiro</b>. Edimburgo - Escocia.");
+    L.marker([42.331667, -83.0475],{icon: icon6}).addTo(mymap).bindPopup("<b>Sólo los amantes sobreviven</b>. Detroit - Estados Unidos.");
+    L.marker([53.416667, -3],{icon: icon7}).addTo(mymap).bindPopup("<b>Sombas tenebrosas</b>. Liverpool - Reino Unido.");
+
 </script>
     </body>
 </html>
